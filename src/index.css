@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_container, .login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_title, .login_title{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_label{
+    padding-top: 10px;
+}
+
+.input_input{
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+
+.form_button{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.main_head{
+    width: 100vw;
+    position: fixed;
+}

@@ -1,0 +1,25 @@
+.navbar_container {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar_tabs{
+    display: flex;
+}
+
+.navbar_tab{
+    display: inline-block;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
